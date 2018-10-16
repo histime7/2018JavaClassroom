@@ -1,4 +1,4 @@
-package Á¦06Â÷½Ã;
+package ì œ06ì°¨ì‹œ;
 
 public class Test2 {
 	int a = 1;

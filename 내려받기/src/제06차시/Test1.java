@@ -1,4 +1,4 @@
-package Á¦06Â÷½Ã;
+package ì œ06ì°¨ì‹œ;
 
 public class Test1 {
 	static int b = 999;
@@ -8,7 +8,6 @@ public class Test1 {
 		Test2 myClass2 = new Test2();
 		Test2 myClass3 = new Test2();
 
-		// ºÐ¼®(1)
 		myClass1.a += 10;
 		myClass1.b += 10;
 		myClass1.print();
@@ -21,14 +20,12 @@ public class Test1 {
 		myClass3.b += 10;
 		myClass3.print();
 
-		// ºÐ¼®(2)
 		myClass1 = null;
 		System.out.println(myClass1.a);
 		System.out.println(myClass1.b);
 		System.out.println(Test2.a);
 		System.out.println(Test2.b);
 
-		// ºÐ¼®(3)
 		System.out.println(Test1.b + ", " + Test2.b);
 	}
 }

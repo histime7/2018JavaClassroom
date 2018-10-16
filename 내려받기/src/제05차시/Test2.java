@@ -1,14 +1,12 @@
-package Á¦05Â÷½Ã;
+package ì œ05ì°¨ì‹œ;
 
 public class Test2 {
 	int a = 1, b = 2, c = 3;
 
 	Test2() {
-		// ºÐ¼®(1)
 		int a = 4;
 		System.out.println("a:" + a);
 
-		// ºÐ¼®(2)
 		System.out.print("c:");
 		for (int b = 1; b <= 5; b++) {
 			int c = 5;
@@ -18,18 +16,15 @@ public class Test2 {
 		System.out.println("a:" + a + ", b:" + b);
 		System.out.println("c:" + c);
 
-		// ºÐ¼®(3)
 		int b = 6;
 		System.out.println("b:" + b);
 
-		// ºÐ¼®(4)
 		if (c > 4) {
 			int d = 7;
 			System.out.println("d:" + d);
 		}
 		System.out.println("d:" + d);
 
-		// ºÐ¼®(5)
 		method1(8);
 		System.out.println("a:" + a + ", b:" + b + ", c:" + c);
 	}
