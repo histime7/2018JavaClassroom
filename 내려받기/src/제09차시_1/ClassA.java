@@ -1,4 +1,4 @@
-package 제10차시_1;
+package 제09차시_1;
 
 public class ClassA {
    private int a1;

@@ -1,6 +1,6 @@
-package 제10차시_1;
+package 제09차시_1;
 
-import 제10차시_2.ClassC;
+import 제09차시_2.ClassC;
 
 public class Main {
 	public static void main(String[] args) {
