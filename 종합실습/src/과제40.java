@@ -10,7 +10,7 @@ public class °úÁ¦40 {
 
 		for(int i=0; i<n; i++) {
 			for(int j=0; j<n; j++) {
-				System.out.printf("%1d ", 1+(i+j)%5);
+				System.out.printf("%1d ", 1+(i+j)%n);
 			}
 			System.out.println();
 		}
