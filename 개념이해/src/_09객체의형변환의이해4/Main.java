@@ -1,28 +1,15 @@
-package _09ê°ì²´ì˜í˜•ë³€í™˜ì˜ì´í•´4;
+package _09°´Ã¼ÀÇÇüº¯È¯ÀÇÀÌÇØ2;
 
 public class Main {
-
 	public static void main(String[] args) {
-		String s="10";
-		System.out.println(Integer.parseInt(s, 4));
-		
-		
-		
-/*		// TODO Auto-generated method stub
-		ClassA ca = new ClassA();
-		ClassB cb = new ClassB();
-
-		//System.out.println("í…ŒìŠ¤íŠ¸1");
-		//cb.method();
-
-		//System.out.println("í…ŒìŠ¤íŠ¸2");
-		//cb = ca;
-		//cb.method();
-		
-		System.out.println(ca instanceof ClassA);
-		System.out.println(cb instanceof ClassA);
-		System.out.println(cb instanceof ClassB);
-		System.out.println(ca instanceof ClassB);*/
+		ClassA cc=new ClassA();
+		ClassB cd=new ClassB();
+		cc=(ClassA) cd;					//Çüº¯È¯ ¿À·ù
+		cc.a1=31;
+		cc.a2=32;
+		cc.b1=33;
+		cc.b2=34;
+		cc.methodA();
+		cc.methodB();
 	}
-
 }

@@ -1,4 +1,4 @@
-package _09객체의형변환의이해2;
+package _09객체의형변환의이해1;
 
 public class ClassA extends ClassB{
 	int a1;

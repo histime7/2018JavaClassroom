@@ -1,4 +1,4 @@
-package _09객체의형변환의이해;
+package _09객체의형변환의이해1;
 
 public class 자식 extends 부모 {
 	void cry() {
