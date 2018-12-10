@@ -20,7 +20,7 @@ public class 과제49 {
 			
 			for(int j=0; j<i; j++) {
 				r+=방향;
-				nums[r][c]=cnt++;;
+				nums[r][c]=cnt++;
 			}
 		}
 		
